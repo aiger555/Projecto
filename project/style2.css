@@ -1,0 +1,115 @@
+
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+#home {
+    background-color: rgba(207, 239, 253, 0.753);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#about {
+    background-color: rgba(207, 239, 253, 0.753);
+    padding: 20px;
+}
+
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#body2 nav {
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0T75b6QGEWGwEEfj7e_bPnEtktLyuLFAig&usqp=CAU"); */
+    list-style-type: circle;
+}
+
+#body2 nav li:hover{
+    display: inline;
+    margin: 15px;
+    color: white;
+    /* text-decoration: none; */
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    width: calc(70% - 20px); 
+}
+
+.rotate-element {
+    margin-top: 180px;
+    transform: rotate(45deg); 
+}
+
+.scale-element {
+    width: 200px;
+    height: 150px;
+    transform: scale(1.5); 
+}
+
+li[class] {
+    font-size: 200%;
+}
+li[class="a"] {
+    background-color: rgb(57, 125, 180);
+}
+li[class~="a"] {
+    color: rgb(179, 137, 46);
+}
+li[class|="a"] {
+    text-decoration: underline;
+}
+li[class^="c" i]{color: red;}
+
+div ul li p:hover{
+    color:blue;
+    text-decoration: dashed;
+}
+div h3::first-letter {
+    font-size: 150%;
+    color: red;
+}
+.box::before {
+    content: "Before Text: ";
+    font-weight: bold;
+    color: green;
+}
+
+.box::after {
+    content: " After Text";
+    font-weight: bold;
+    color: blue;
+}
+
+.parent > p {
+    color: rgb(128, 33, 123);
+}
+
+div ul + ol{
+    background-color: rgb(17, 17, 17);
+}
+
+span + span {
+    font-weight: bold;
+}
+
+p ~ p {
+    text-decoration: underline;
+}
+

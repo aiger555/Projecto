@@ -1,0 +1,297 @@
+html{
+    background-color: #555;
+}
+nav ul li{ 
+    display: inline;
+    margin: 10px;
+}
+
+nav a{
+    color: #fff;
+    text-align: center;
+}
+nav a:hover{
+    color: black;
+}
+
+/* Style for the Home Section */
+#home {
+    background-image: url('data:image/jpeg;base64,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'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* Style for the heading */
+#home h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Style for the paragraph */
+#home p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Style for the background overlay */
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+/* Styling for the "About Me" section */
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dad3d3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for the  table */
+.about-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.about-table th, .about-table td {
+    border: 2px solid #353333;
+    padding: 12px;
+    text-align: left;
+}
+
+.about-table th, td {
+    background-color: #eee9e9;
+    font-weight: bold;
+}
+
+/* Styling for the image cell */
+.image-cell img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the "About Me" section's title */
+.about-me h2 {
+    font-size: 24px;
+    color: #f2f2f2;
+    margin-top: 10px;
+}
+
+/* Styling for the "About Me" section's text */
+.about-me p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Styling for the complex table cells */
+.about-table th, .about-table td {
+    font-weight: normal;
+    color: #0a0a0a;
+}
+
+.about-me{
+    background-color: #555454;
+}
+/* Style for the resume container */
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #555454;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color:#f2f2f2;
+}
+
+/* Style for the "CV" heading */
+.resume h3 {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style for "Education" and "Work Experience" sections */
+.resume .education,
+.resume .experience {
+    margin: 20px 0;
+}
+
+/* Style for section titles ("Education" and "Work Experience") */
+.resume .education h4,
+.resume .experience h4 {
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style for links in the "Work Experience" section */
+.resume .experience a {
+    color: #9ebcda;
+    text-decoration: none;
+}
+
+.resume .experience a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the "Skills" section */
+.resume .skills {
+    margin: 20px 0;
+}
+
+/* Style for the list of skills */
+.resume .skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style for individual skills in the list */
+.resume .skills li {
+    color: #f2f2f2;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+/* Style for the "Photo Gallery" title */
+#gallery h2 {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style for the gallery grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin:50px 50px 50px 50px;
+}
+
+/* Style for each gallery item */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+/* Hover effect for the gallery items */
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Style for the image overlay */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Style for the "View" link in the image overlay */
+.image-overlay a {
+    color: #fff;
+    text-decoration: none;
+    background: #c7cacc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hover effect for the image overlay */
+.gallery-item:hover .image-overlay {
+    opacity: 1;
+}
+
+
+/* Style for the contact section (footer) */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the "Contact details" heading */
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the address information */
+footer address {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style for the list of contact details */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for individual contact details */
+footer li {
+    margin: 5px 0;
+}
+
+/* Style for links in the contact details */
+footer a {
+    color: #e9edf0;
+    text-decoration: none;
+}
+
+/* Hover effect for links in the contact details */
+footer a:hover {
+    text-decoration: underline;
+}
